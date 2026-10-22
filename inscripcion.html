@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripción · Parche Dev 2026</title>
+        <meta name="description" content="Inscripciones Parche Dev 2026">
+</head>
+<body>
+    <h1>Parche Dev | Inscripcion</h1>
+    <form action="gracias.html" method="get">
+        <p>La entrada es gratuita y los cupos son limitados. Completa el formulario para reservar el tuyo.Los campos marcados con * son obligatorios.</p>
+        <!--Grupo: Tus datos-->
+        <fieldset>
+            <legend>Tus datos</legend>
+            <div>
+                <label for="nombre">Nombre completo *</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div>
+                <label for="correo">Correo electronico *</label>
+                <input type="email" id="correo" name="correo" required>
+            </div>
+            <div>
+                <label for="celular">Celular *</label>
+                <input type="tel" id="celular" name="celular" pattern="3[0-9]{9}" required>
+            </div>
+            <div>
+                <label for="ciudad">Ciudad</label>
+                <select id="ciudad" name="ciudad">
+                    <option value="">Selecciona una opcion:</option>
+                    <option value="Medellin">Medellin</opcion>
+                    <option value="Bello">Bello</opcion>
+                    <option value="Itagui">Itagui</opcion>
+                    <option value="Envigado">Envigado</opcion>
+                    <option value="Sabaneta">Sabaneta</opcion>
+                    <option value="La estrella">La estrella</opcion>
+                    <option value="Caldas">Caldas</opcion>
+                    <option value="Copacabana">Copacabana</opcion>
+                    <option value="Girardota">Girardota</opcion>
+                    <option value="Barbosa">Barbosa</opcion>
+                    <option value="Otra">Otra</opcion>
+                </select>
+            </div>   
+        </fieldset>
+
+
+        <!-- Grupo: ¿En que momento estas?-->
+         <fieldset>
+            <legend>¿En que momento estas? *</legend>
+            <div>
+                <input type="radio" id="momento-1" name="momento" value="empezando" required>
+                <label for="momento-1">Estoy empezando a programar</label>
+            </div>
+            <div>
+                <input type="radio" id="momento-2" name="momento" value="aprendiendo">
+                <label for="momento-2">Ya programo, pero no trabajo en tecnología</label>
+            </div>
+            <div>
+                <input type="radio" id="momento-3" name="momento" value="trabajando">
+                <label for="momento-3">Trabajo en tecnologia</label>
+            </div>
+         </fieldset>
+
+
+         <!--¿Qué temas te interesan?-->
+         <fieldset>
+            <legend>¿Qué temas te interesan?</legend>
+            <div>
+                <input type="checkbox" id="tema-web" name="temas" value="web">
+                <label for="tema-web">Desarrollo web</label>
+            </div>
+            <div>
+                <input type="checkbox" id="tema-sql" name="temas" value="sql">
+                <label for="tema-sql">Datos y SQL</label>
+            </div>
+            <div>
+                <input type="checkbox" id="tema-accesibilidad" name="temas" value="accesibilidad">
+                <label for="tema-accesibilidad">accesibilidad</label>
+            </div>
+            <div>
+                <input type="checkbox" id="tema-python" name="temas" value="python">
+                <label for="tema-python">Python</label>
+            </div>
+            <div>
+                <input type="checkbox" id="tema-nube" name="temas" value="nube">
+                <label for="tema-nube">Despliegue en la nube</label>
+            </div>
+         </fieldset>
+
+         <fieldset>
+            <legend>Agenda</legend>
+            <div>
+                <input type="checkbox" id="taller" name="taller" value="python-bot">
+                <label for="taller">Quiero inscribirme al taller “Tu primer bot con Python” (30 cupos, trae tu computador)</label>
+            </div>
+            <div>
+                <label for="talla">Talla de camiseta</label>
+                <select id="talla" name="talla">
+                    <option value="">Selecciona tu talla</option>
+                    <option value="XS">XS</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                    <option value="XXL">XXL</option>
+                </select>
+            </div>
+        
+            <div>
+                <label for="expectativas">¿Qué esperas aprender en Parche Dev? (máximo 300 caracteres)</label>
+                <textarea id="expectativas" name="expectativas" maxlength="300" rows="4" ></textarea>
+            </div>
+        </fieldset> 
+
+         <!--codigo de conducta-->
+         <div>
+            <input type="checkbox" id="acepta-conducta" name="acepta-conducta" required>
+            <label for="acepta-conducta">Acepto el <a href="conducta.html">codigo de conducta</a> del evento</label>
+        </div>
+        <div>
+            <button type="submit">Reservar mi cupo</button>
+        </div>
+
+
+    </form>
+    
+
+</body>
+</html>
