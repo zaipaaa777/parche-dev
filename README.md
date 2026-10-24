@@ -13,11 +13,6 @@ Sitio publicado: https://github.com/zaipaaa777/parche-dev.git
 - Inscripción y confirmación
 - Código de conducta
 
-## Cómo verlo en tu computador
-
-1. Clona el repositorio.
-2. Ábrelo en VS Code.
-3. Abre index.html con Live Preview.
 
 ## Decisiones que tomé
 
@@ -43,7 +38,7 @@ el <input type="email"> porque era el formate correcto que redirige al correo.
 
 ## Lo que aprendí
 
-- (Al menos tres aprendizajes de la jornada.)
+
 ##-estructura con etiquetas HTML.
 ##-navegacion interna y enlaces utiles.
 ##-control de versiones y orden con git.
